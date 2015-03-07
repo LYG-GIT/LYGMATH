@@ -1,0 +1,29 @@
+﻿生成启动时间为 2014/8/5 10:34:26。
+     1>项目“J:\MP\工程\LygMath\Math\Math\Math.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Common.cpp Matrix4x4.cpp Timer.cpp Vector2.cpp Vector3.cpp Vector4.cpp mainTest.cpp
+         mainTest.cpp
+     1>j:\mp\工程\lygmath\math\math\vector4.h(122): warning C4244: “初始化”: 从“double”转换到“LygMath::Real”，可能丢失数据
+         Vector4.cpp
+     1>j:\mp\工程\lygmath\math\math\vector4.h(122): warning C4244: “初始化”: 从“double”转换到“LygMath::Real”，可能丢失数据
+         Vector3.cpp
+         Vector2.cpp
+         Timer.cpp
+         Matrix4x4.cpp
+     1>j:\mp\工程\lygmath\math\math\vector4.h(122): warning C4244: “初始化”: 从“double”转换到“LygMath::Real”，可能丢失数据
+         Common.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\MP\工程\LygMath\Math\Debug\Math.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\MP\工程\LygMath\Math\Debug\Math.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\MP\工程\LygMath\Math\Debug\Math.lib" /MACHINE:X86 Debug\Common.obj
+         Debug\Matrix4x4.obj
+         Debug\Timer.obj
+         Debug\Vector2.obj
+         Debug\Vector3.obj
+         Debug\Vector4.obj
+         Debug\mainTest.obj
+         Math.vcxproj -> J:\MP\工程\LygMath\Math\Debug\Math.exe
+     1>已完成生成项目“J:\MP\工程\LygMath\Math\Math\Math.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.82
